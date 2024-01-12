@@ -1,0 +1,425 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.container1{
+
+    width: 100%;
+    height: 1100px;
+    background-color: #103f4ca8;
+
+}
+.logo img{
+      
+      width: 8%;
+      border-radius: 80%;
+      margin-top: 2%;
+      margin-left: 8%;
+      cursor: pointer;
+      border: 2px solid rgb(37, 22, 22);
+     /* animation: mymove 10s infinite; */
+    /* border: 1px solid red; */
+      
+}
+
+@keyframes mymove {
+  70% {transform: rotate(360deg);}
+}
+
+.navbar{
+      
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 25%;
+      margin-right: 28%;
+      
+    
+}
+nav ul li{
+      display: inline-block;
+      position: relative;
+      /* list-style: none; */
+     margin-left: 12%;
+     /* margin-right: 8%; */
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: aquamarine;
+    }
+
+ nav ul li a:hover{
+     
+    
+        --c:linear-gradient(#1a1f03 0 0); 
+        padding-bottom: .20em;
+        background: var(--c), var(--c);
+        transition: .4s linear, background-size .2s .5s linear;
+       background-size: 65% .2em;
+       border-radius: 15%;
+     text-decoration: none;
+
+}
+
+.Head{
+     
+     padding-top:14% ;
+     margin-left: 15%;
+     
+
+}
+.Head p{
+      font-size: 20px;
+      color: #f5ededc9;
+      
+}
+.Head p:hover{
+      color: #0b222b;
+}
+.Head h1{
+      
+     font-size: 50px;
+     color: rgb(22, 40, 54);
+}
+.Head h2{
+      font-size: 60px;
+      color: rgb(42, 53, 52);
+}
+.Head Button {
+     cursor: pointer;
+     border: 2px solid rgb(150, 131, 131);
+     font-size: 16px;
+     height: 24px;
+     width: 10%;
+     font-size: large;
+     font-weight: 600;
+     /* border-radius: 15%; */
+}
+.Head Button:hover{
+      color: #edf3f6;
+      background-color: #1e3e4e;
+      border-radius: 15%;
+}
+.image img{
+     
+     height: 750px;
+    margin-left: 65%;
+    margin-top: -25%;
+    cursor: pointer;
+   
+}
+.container2{
+     
+     width: 100%;
+     height: 1500px;
+     background-color: #33474da8;
+    
+}
+.Card{
+     
+     /* margin: 4px; */
+     padding-top: 10%;
+     display: flex;
+     margin-right: 90%;
+     height: 30%;
+    /* border: 1px solid red; */
+
+     
+}
+.Card img{
+
+    margin-left: 88%;
+    
+    cursor: pointer;
+}
+.Card img:hover{
+
+      box-sizing: border-box;
+      transform: rotate(0deg) translate(3% ,2%);
+      transition:  1s cubic-bezier(0.5, 0.4, 0.3, 1);
+    
+}
+.Card p
+{
+    padding-top: 310%;
+    font-size: 1px;
+    /* border: 1px solid red; */
+    margin-right: 10%;
+
+}
+.Para h1{
+     color:white ;
+     font-size: 2.5rem;
+     margin-left: 8%;
+    /* border: 1px solid red; */
+     padding-top: 4%;
+     display: flex;
+     margin-right: 85%;
+     margin-top: 5%;
+}
+.Para h1:hover{
+      
+       color: #152d21b8;
+       border-bottom: 2px solid #A3E635;
+}
+.Para h2{
+    color:white ;
+    font-size: 2.5rem;
+   /* border: 1px solid red; */
+  margin-left: 55%;
+  padding-bottom: -5%;
+  margin-top: -4%;
+  margin-right: 38%;
+
+    
+}
+.Para h2:hover{
+      
+     color: #14271db8;
+     border-bottom: 2px solid #A3E635;
+}
+.Para p{
+    /* border: 1px solid red; */
+     /* display: flex; */
+     margin-left: 10%;
+     color: white;
+     font-size: 20px;
+     padding-top: 2%;
+     display: inline-block;
+}
+.Card h1{
+    /* border: 1px solid red; */
+    color: aliceblue;
+    padding-right: 50%;
+    margin-bottom: 183%;
+    padding-left: 50%;
+    margin-left: 18%;
+    
+}
+
+.Card h1:hover{
+      color: #d8b0b0;
+      
+}
+.about h1{
+     font-size: 50px;
+     color: white;
+     padding-top: -25;
+     /* border: 1px solid red; */
+     margin-left: 25%;
+     margin-right: 55%;
+
+}
+.about p{
+      
+     font-size: 16px;
+     color: white;
+     /* border: 1px solid red; */
+     margin-left: 50%;
+     margin-right: 16%;
+     margin-top: -5%;
+     
+     
+}
+.container3{
+     
+    width: 100%;
+    height: 1400px;
+    background-color: hsla(295, 14%, 84%, 0.574);
+    
+}
+.Experience
+{
+      background-color: rgb(124, 157, 168);
+      width: 100%;
+      height: 25%;
+}
+.Experience h1{
+      
+      /* width: 10%; */
+      font-size: 40px;
+     /* border: 1px solid red; */
+     padding-top: 5%;
+     margin-left: 11%;
+     margin-right: 70%;
+     
+}
+.Experience h1:hover{
+      
+      color: #1d5b73;
+      border-bottom: 2px solid rgb(26, 77, 128);
+}
+.Experience p{
+      
+      font-size: 18px;
+      padding-top: 2%;
+      margin-left: 11%;
+      margin-right: 52%;
+     /* border: 1px solid red; */
+
+}
+.Experience h3{
+      
+      font-size: 25px;
+     /* border: 1px solid red; */
+     margin-right: 80%;
+     margin-left: 65%;
+     margin-bottom: -7%;
+     border-left: 2px solid rgb(40, 28, 28);
+}
+.Experience h3:hover{
+
+     color: #1d5b73;
+      border-bottom: 1px solid rgb(10, 75, 107) ;
+      /* border-left: 1px solid red; */
+}
+.Myself{
+     /* border: 1px solid red; */
+     padding-top: 8%;
+     margin-left: 55%;
+     margin-right: 3%;
+     /* align-content: space-evenly; */
+}
+.Myself h1{
+       font-size: 50px;
+      margin-left: 9%;
+      margin-bottom: 5%;
+      margin-right: 50%;
+     /* border: 1px solid red; */
+}
+.Myself h1:hover{
+      
+     color: #1d5b73;
+     border-bottom: 2px solid rgb(101, 8, 8);
+}
+.Myself p{
+      
+     font-size: 18px;
+     margin-left: 9%;
+     margin-bottom: 3%;
+     margin-right: 1%;
+    /* border: 1px solid red; */
+}
+.Myself h2{
+     margin-left: 9%;
+     margin-bottom: 3%;
+     margin-right: 3%;
+    /* border: 1px solid red; */
+
+}
+.Myself button{
+      
+     height: 35px;
+     width: 25%;
+     font-size: 23px;
+     font-weight: 600;
+     margin-left: 9%;
+    border: 1px solid;
+    border-radius: 5%;
+    background-color: #b3cbd4b1;
+}
+.Myself button:hover{
+      
+      background-color: #1d6e89b2;
+      border-radius: 15px;
+      cursor: pointer;
+}
+.img{
+     
+     margin-top: -27%;
+     width: 40%;
+      margin-left: 9%;
+     /* border: 1px solid red; */
+     display: flex;
+     height: 30%;
+     border-radius: 50%;
+}
+.img:hover{
+      
+      cursor: all-scroll;
+      /* box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1); */
+      transform: rotate(0deg) translate(3% ,2%);
+      transition:  1s cubic-bezier(0.5, 0.4, 0.3, 1);
+     border-radius: 50%;
+
+}
+.footer{
+      
+     /* border: 1px solid red; */
+     /* margin-right: 60%; */
+     padding-top: 20%;
+     margin-top: 3%;
+     margin-left: 58%;
+     font-size: 20px;
+      
+}
+.footer a{
+      
+      margin-left: 3%;
+      color: rgb(9, 11, 13);
+      font-weight: bold;
+      box-sizing: border-box;
+     border: 1px solid rgb(73, 65, 65);
+     text-decoration: none;
+     text-align: center;
+     /* padding-left: 1%; */
+     padding-right: 3%;
+     background-color: rgb(208, 221, 219);
+     
+
+}
+.footer a:hover {
+      
+      background-color: #033d39cf;
+      color: rgb(245, 247, 249);
+      border-radius: 15%;
+     
+}
+.form{
+      color: #000;
+      font-size: 70px;
+     /* border: 1px solid red; */
+     margin-right: 50%;
+     margin-left: 10%;
+     margin-top: -20%;
+
+}
+.form input{
+      
+     height: 50px;
+     width: 60%;
+     font-size: large;
+     font-weight: 600;
+}
+.form input:hover {
+     background-color: rgba(231, 223, 213, 0.658);
+     border-radius: 10px;
+
+}
+.form button{
+      
+     height: 50px;
+     width: 30%;
+     font-size: large;
+     font-weight: 600;
+     color: aliceblue;
+     background-color: #8babe7;
+     border-radius: 10%;
+}
+.form button:hover{
+
+      background-color: #2260D2;
+      border-radius: 5%;
+      cursor: progress;
+}
+.form p{
+      font-size: 24px;
+     /* border: 1px solid red; */
+     text-align: center;
+     margin-left: 30%;
+     margin-top: 4%;
+     margin-right: -60%;
+}
+.form p:hover{
+      
+     color: #1d5b73;
+      border-bottom:2px solid rgb(10, 75, 107) ;
+}
